@@ -1,0 +1,13 @@
+.main-container {
+    background-color: whitesmoke;
+    height: 100vh;
+    width:85%;
+    float: left;
+    position: relative;
+}
+.nav {
+    background-color: darkgray;
+    height: 100vh;
+    width:15%;
+    float: left;
+}

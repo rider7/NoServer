@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>Front End Developer</title>
+</head>
+<body>
+  <nav>
+  <ul class="right hide-on-med-and-down">
+    <li><a href="#!">First Sidebar Link</a></li>
+    <li><a href="#!">Second Sidebar Link</a></li>
+  </ul>
+  <ul id="slide-out" class="side-nav">
+    <li><a href="#!">First Sidebar Link</a></li>
+    <li><a href="#!">Second Sidebar Link</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+</nav>
+        
+<section class="main-container"><ui-view><ui-view></section>
+<section class="nav">
+  <a ui-sref="about">About</a>
+  <a ui-sref="work">Work</a>
+  <a ui-sref="future">Future</a>
+  <a ui-sref="skills">Skills</a>
+</section>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.js"></script>
+<script src="./app.js"></script>
+<script src="./js/plugin.js"></script>
+<script src="./js/mainCtrl.js"></script>
+<script src="./js/aboutCtrl.js"></script>
+<script src="./js/futureCtrl.js"></script>
+<script src="./js/skillsCtrl.js"></script>
+<script src="./js/workCtrl.js"></script>
+</body>
+</html>
