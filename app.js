@@ -1,24 +1,27 @@
-angular.module('myApp',['ui.router', 'uiRouterStyles'])
+angular.module('myApp',['ui.router', 'ngAnimate'])
 .config(function($stateProvider, $urlRouterProvider){
 $stateProvider
+  .state('index', {
+    url:'/'
+  })
   .state('about', {
     templateUrl: './views/about-tmpl.html',
-    url: '/about/',
-    data: {
-      css: ['./css/about.css']
-    }
+    url: '/about/'
   })
-  .state('future', {
-    templateUrl: './views/future-tmpl.html',
-    url: '/future/'
+  .state('project', {
+    templateUrl: './views/project-tmpl.html',
+    url: '/project/'
   })
-  .state('skills', {
-    templateUrl: './views/skills-tmpl.html',
-    url: '/skills/'
+  .state('contact', {
+    templateUrl: './views/contact-tmpl.html',
+    url: '/contact/'
   })
   .state('work', {
     templateUrl: './views/work-tmpl.html',
     url: '/work/'
   })
+
+$urlRouterProvider
+.otherwise('/')
 
 });

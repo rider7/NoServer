@@ -4,39 +4,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="secondarycss.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
   <title>Front End Developer</title>
 </head>
 <body>
-  <nav>
-  <ul class="right hide-on-med-and-down">
-    <li><a href="#!">First Sidebar Link</a></li>
-    <li><a href="#!">Second Sidebar Link</a></li>
-  </ul>
-  <ul id="slide-out" class="side-nav">
-    <li><a href="#!">First Sidebar Link</a></li>
-    <li><a href="#!">Second Sidebar Link</a></li>
-  </ul>
-  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-</nav>
-        
-<section class="main-container"><ui-view><ui-view></section>
-<section class="nav">
-  <a ui-sref="about">About</a>
-  <a ui-sref="work">Work</a>
-  <a ui-sref="future">Future</a>
-  <a ui-sref="skills">Skills</a>
+
+<section class="main-container"><img src="images/thumb_IMG_3041_1024.jpg">
+  <section class="left-top-box rotate"><about-dir></about-dir></section>
+  <section class="right-top-box rotate"><work-dir></work-dir></section>
+  <section class="center"></section>
+  <section class="left-bottom-box rotate"><contact-dir></contact-dir></section>
+  <section class="right-bottom-box rotate" style="text-align:center;"><p id='design'>Designed by Brandon Rider</p></section>
 </section>
+<ui-view></ui-view>
 
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.js"></script>
-<script src="./app.js"></script>
-<script src="./js/plugin.js"></script>
-<script src="./js/mainCtrl.js"></script>
-<script src="./js/aboutCtrl.js"></script>
-<script src="./js/futureCtrl.js"></script>
-<script src="./js/skillsCtrl.js"></script>
-<script src="./js/workCtrl.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-animate.js"></script>
+  <script src="./app.js"></script>
+  <script src="./js/mainCtrl.js"></script>
+  <script src="./js/aboutCtrl.js"></script>
+  <script src="./js/contactCtrl.js"></script>
+  <script src="./js/workCtrl.js"></script>
+  <script src="./js/navDirective.js"></script>
+  <script src="./js/navDirective2.js"></script>
+  <script src="./js/navDirective3.js"></script>
+  <script src="./js/navDirective4.js"></script>
 </body>
 </html>

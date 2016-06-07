@@ -1,0 +1,184 @@
+.container{
+            width: 600px;
+        }
+        .diamond-one{
+
+            z-index: 1;
+            float: left;
+            width: 200px;
+            height: 200px;
+            background-color: #FBA919;
+            position: relative;
+        }
+        .diamond-one > h3{
+            padding: 10px;
+            color: white;
+            font-family: Verdana;
+            margin: 0;
+            text-align: center;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .diamond-one > p{
+            padding: 10px;
+            color: white;
+            font-family: Verdana;
+            margin: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .diamond-one::before{
+            border-color: #FBA919 transparent transparent transparent;
+            border-style: solid;
+            border-width: 100px; /* half of diamond width*/
+            content: "";
+            position: absolute;
+            bottom: -200px; /* equals diamond width*/
+        }
+        .diamond-two{
+            z-index: 1;
+            float: left;
+            width: 200px;
+            height: 200px;
+            background-color: #03A6E1;
+            position: relative;
+        }
+        .diamond-two::before{
+            border-color: #03A6E1 transparent transparent transparent;
+            border-style: solid;
+            border-width: 100px; /* half of diamond width*/
+            content: "";
+            position: absolute;
+            bottom: -200px; /* equals diamond width*/
+        }
+        .diamond-two > h3{
+            padding: 10px;
+            color: white;
+            font-family: Verdana;
+            margin: 0;
+            text-align: center;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .diamond-two > p{
+            padding: 10px;
+            color: white;
+            font-family: Verdana;
+            margin: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .diamond-inverted{
+            overflow: hidden;
+            float: left;
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            position: relative;
+        }
+        .diamond-inverted::before{
+            border-color: transparent transparent white transparent;
+            border-style: solid;
+            border-width: 100px; /* half of diamond width*/
+            content: "";
+            position: absolute;
+            bottom: 0px; /* equals diamond width*/
+        }
+        .diamond-inverted > img{
+            height: 100%;
+            width: auto;
+        }
+
+        .diamond-one-2{
+            overflow: hidden;
+            z-index: 0;
+            margin-top: 10px;
+            float: left;
+            width: 200px;
+            height: 250px;
+            background-color: #FBA919;
+            position: relative;
+        }
+        .diamond-one-2::before{
+            border-color: white transparent transparent transparent;
+            border-style: solid;
+            border-width: 100px; /* half of diamond width*/
+            content: "";
+            position: absolute;
+            top: 0px; /* equals diamond width*/
+        }
+        .diamond-one-2 {
+          background-color: #3581B8;
+            height: 100%;
+            width: auto;
+        }
+
+        .diamond-two-2{
+            overflow: hidden;
+            z-index: 0;
+            margin-top: 10px;
+            float: left;
+            width: 200px;
+            height: 250px;
+            background-color: #03A6E1;
+            position: relative;
+        }
+        .diamond-two-2::before{
+            border-color: white transparent transparent transparent;
+            border-style: solid;
+            border-width: 100px; /* half of diamond width*/
+            content: "";
+            position: absolute;
+            top: 0px; /* equals diamond width*/
+        }
+        .diamond-two-2  {
+          background-color: #3581B8;
+            height: 100%;
+            width: auto;
+        }
+        .diamond-inverted-2{
+            margin-top: 10px;
+            overflow: hidden;
+            float: left;
+            width: 200px;
+            height: 250px;
+            background-color: #76C043;
+            position: relative;
+        }
+        .diamond-inverted-2::before{
+            border-color: transparent transparent #76C043 transparent;
+            border-style: solid;
+            border-width: 100px;
+            content: "";
+            z-index: 99;
+            position: absolute;
+            top: -200px;
+        }
+        .diamond-inverted-2 > h3{
+            padding: 10px;
+            color: white;
+            font-family: Verdana;
+            margin: 0;
+            text-align: center;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .diamond-inverted-2 > p{
+            padding: 10px;
+            color: white;
+            font-family: Verdana;
+            margin: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .diamond-inverted-2 > {
+          background-color: #3581B8;
+            height: 100%;
+            width: auto;
+        }
