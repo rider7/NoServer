@@ -266,3 +266,26 @@ top: 0px;
 right: 0px;
 z-index: 3;
 }
+span{
+  position: relative;
+  color: white;
+  z-index: 5;
+  bottom: 500px;
+  left: 650px;
+}
+span > img{
+  position: relative;
+  color: white;
+  z-index: 5;
+  height: 50px;
+  width: 50px;
+  margin: 15px;
+}
+.web1 > img{
+  height: auto;
+  width: 10%;
+}
+#grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
