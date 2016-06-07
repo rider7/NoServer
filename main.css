@@ -191,10 +191,6 @@ div::first-letter {
   transform: rotate(360deg);
   cursor: pointer;
 }
-.right-bottom-box:hover {
-  /*color: white;*/
-
-}
 .template-div{
   height: 100%;
   width: 100%;
@@ -244,26 +240,26 @@ a:hover {
   position: absolute;
   top: 50px;
 }
-.about-header{
-  position: absolute;
-  top: 150px;
-  left: 50px;
+#about-header{
+  position: relative;
   color: white;
   z-index: 5;
-  opacity: 1;
+  bottom: 500px;
+  left: 650px;
+  width: 45%;
 }
-.about-p{
-  position: absolute;
-  top: 250px;
-  left: 50px;
+#about-p{
+  position: relative;
   color: white;
   z-index: 5;
-  opacity: 1;
+  bottom: 500px;
+  left: 650px;
+  width: 45%;
 }
 .about-div2{
 width: 50%;
 height: 100vh;
-opacity: 0.30;
+opacity: 0.3;
 background-color: #93B0E3;
 position: absolute;
 top: 0px;
